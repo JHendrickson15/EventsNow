@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PersonProject.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>EBB5FC432F44251F58225A8F324F46F8E0BF4DFA</string>
+				<key>dateExpires</key>
+				<string>4/28/20</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>43BBC72U4R.MyFirstAPP.PersonProject</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.icloud-container-environment</key>
+				<string>Production</string>
+				<key>com.apple.developer.icloud-container-identifiers</key>
+				<array>
+					<string>iCloud.MyFirstAPP.PersonProject</string>
+				</array>
+				<key>com.apple.developer.icloud-services</key>
+				<array>
+					<string>CloudKit</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>43BBC72U4R</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>PersonProject.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>b3ee4b7c-f40c-4583-92e4-94dc2ef4950a</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: MyFirstAPP.PersonProject</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>43BBC72U4R</string>
+				<key>name</key>
+				<string>Jordan Hendrickson</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

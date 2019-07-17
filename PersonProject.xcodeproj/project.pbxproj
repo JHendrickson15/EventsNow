@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1648A09C22DFAEC100E76361 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1648A09B22DFAEC100E76361 /* StoreKit.framework */; };
 		16F15F3922D5494500E90C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F15F3822D5494500E90C69 /* AppDelegate.swift */; };
 		16F15F3E22D5494500E90C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F15F3C22D5494500E90C69 /* Main.storyboard */; };
 		16F15F4022D5494700E90C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F15F3F22D5494700E90C69 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1648A09B22DFAEC100E76361 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		16F15F3522D5494500E90C69 /* PersonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F15F3822D5494500E90C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16F15F3D22D5494500E90C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F15F6922D6845300E90C69 /* CloudKit.framework in Frameworks */,
+				1648A09C22DFAEC100E76361 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +184,7 @@
 		16F15F6722D6845300E90C69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1648A09B22DFAEC100E76361 /* StoreKit.framework */,
 				16F15F6822D6845300E90C69 /* CloudKit.framework */,
 			);
 			name = Frameworks;
@@ -230,6 +234,9 @@
 					16F15F3422D5494500E90C69 = {
 						CreatedOnToolsVersion = 10.2.1;
 						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};

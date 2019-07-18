@@ -6,7 +6,7 @@
 //  Copyright © 2019 Jordan Hendrickson. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import CloudKit
 
 class UserController {
@@ -25,7 +25,7 @@ class UserController {
     
     //CRUD
     
-    func createNewUser(username: String, password: String, bio: String, phone: String, completion: @escaping (Bool) -> Void) {
+    func createNewUser(username: String, password: String, phone: String, completion: @escaping (Bool) -> Void) {
         
         CKContainer.default().fetchUserRecordID { (appleUserID, error) in
             if let error = error {
@@ -75,6 +75,20 @@ class UserController {
                 completion(true)
             }
             self.publicDB.add(operation)
+        }
+    }
+    func deleteCurrentUser(completion: @escaping (Bool) -> ()) {
+        guard let userRecordID = UserController.shared.currentUser?.recordID else {completion(false) ; return}
+        publicDB.delete(withRecordID: userRecordID) { (_, error) in
+            if let error = error {
+                print("Error deleting current user | \(error.localizedDescription)")
+                completion(false)
+                return
+            }else{
+                self.currentUser = nil
+                print("user deleted")
+                completion(true)
+            }
         }
     }
     

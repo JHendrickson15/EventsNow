@@ -10,19 +10,19 @@ import UIKit
 
 class ProfileViewController: UIViewController {
     
-//    var resultsArray: [Post] = []
-//    var isSearching: Bool = false
-//    var dataSource: [Post]
-//    {
-//        return isSearching ? resultsArray: PostController.shared.post
-//    }
+    //    var resultsArray: [Post] = []
+    //    var isSearching: Bool = false
+    //    var dataSource: [Post]
+    //    {
+    //        return isSearching ? resultsArray: PostController.shared.post
+    //    }
     
     @IBOutlet weak var profileImageview: UIImageView!
     @IBOutlet weak var usernameLabel: UILabel!
     
     @IBOutlet weak var phoneNumLabel: UILabel!
     @IBOutlet weak var postedTableView: UITableView!
-    @IBOutlet weak var saveBioButton: UIButton!
+    @IBOutlet weak var deleteAccountButton: UIButton!
     
     var imagePicker: ImagePicker!
     var user: User? = {
@@ -30,25 +30,26 @@ class ProfileViewController: UIViewController {
     }()
     var editMode: Bool = false
     
-//    override func viewWillAppear(_ animated: Bool) {
-//        super.viewWillAppear(animated)
-//        DispatchQueue.main.async {
-//            self.postedTableView.reloadData()
-//            self.resultsArray = PostController.shared.post
-//        }
-//    }
+    //    override func viewWillAppear(_ animated: Bool) {
+    //        super.viewWillAppear(animated)
+    //        DispatchQueue.main.async {
+    //            self.postedTableView.reloadData()
+    //            self.resultsArray = PostController.shared.post
+    //        }
+    //    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.saveBioButton.isHidden = true
+        shouldAutoRotate()
+        supportedInterfaceOrientations()
         NotificationCenter.default.addObserver(self, selector: #selector(ProfileViewController.keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(ProfileViewController.keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         self.postedTableView.delegate = self
         self.postedTableView.dataSource = self
         
         usernameLabel.text = UserController.shared.currentUser?.username
-        phoneNumLabel.text = UserController.shared.currentUser?.phone
+        phoneNumLabel.text = "Phone Number: \(UserController.shared.currentUser?.phone ?? "")"
         profileImageview.layer.cornerRadius = profileImageview.frame.height / 2
         profileImageview.clipsToBounds = true
         profileImageview.layer.borderColor = UIColor.black.cgColor
@@ -76,25 +77,23 @@ class ProfileViewController: UIViewController {
             self.view.frame.origin.y = 0
         }
     }
-    func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
-        let newText = (textView.text as NSString).replacingCharacters(in: range, with: text)
-        let numberOfChars = newText.count
-        return numberOfChars < 70;
+    func shouldAutoRotate() -> Bool {
+        return false
     }
     
-    @IBAction func editBioButtonTapped(_ sender: Any) {
-        saveBioButton.isHidden = false
-        
+    func supportedInterfaceOrientations() -> UIInterfaceOrientationMask{
+        return .portrait
     }
-    @IBAction func saveBioButtonTapped(_ sender: Any) {
-        saveBioButton.isHidden = true
-        guard let user = UserController.shared.currentUser, let username = UserController.shared.currentUser?.username
-            else {return}
-        
-        UserController.shared.saveCurrentUser(user: user, username: username ) { (success) in
+    @IBAction func deleteAccountButtonTapped(_ sender: Any) {
+        UserController.shared.deleteCurrentUser(completion: { (success) in
             if success {
-                print("big yeet")     }
-        }
+                print("user deleted")
+                DispatchQueue.main.async {
+                    self.tabBarController?.selectedIndex = 0
+                    print("popped view to post list")
+                }
+            }
+        })
     }
 } //END OF CLASS
 extension ProfileViewController: UITableViewDataSource, UITableViewDelegate {

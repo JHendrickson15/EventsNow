@@ -31,6 +31,8 @@ class EventsCreationViewController: UIViewController, UITextViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        shouldAutoRotate()
+        supportedInterfaceOrientations()
         updateViews()
         maximumPickerView.delegate = self
         maximumPickerView.dataSource = self
@@ -54,6 +56,14 @@ class EventsCreationViewController: UIViewController, UITextViewDelegate {
         eventLocationLabel.text = location._embedded.venues.first?.name
         hiddenPhoneLabel.text = UserController.shared.currentUser?.phone
         eventTextView.delegate = self
+    }
+    
+    func shouldAutoRotate() -> Bool {
+        return false
+    }
+    
+    func supportedInterfaceOrientations() -> UIInterfaceOrientationMask{
+        return .portrait
     }
     
     func textViewDidBeginEditing(_ textView: UITextView) {

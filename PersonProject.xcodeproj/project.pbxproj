@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162B6D5222E0E96F007DFB7F /* PhoneNumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B6D5122E0E96F007DFB7F /* PhoneNumberTextField.swift */; };
 		1648A09C22DFAEC100E76361 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1648A09B22DFAEC100E76361 /* StoreKit.framework */; };
 		16F15F3922D5494500E90C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F15F3822D5494500E90C69 /* AppDelegate.swift */; };
 		16F15F3E22D5494500E90C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F15F3C22D5494500E90C69 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		162B6D5122E0E96F007DFB7F /* PhoneNumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextField.swift; sourceTree = "<group>"; };
 		1648A09B22DFAEC100E76361 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		16F15F3522D5494500E90C69 /* PersonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F15F3822D5494500E90C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				16F15F6222D6807600E90C69 /* Style Guide.swift */,
 				16F15F6022D6805E00E90C69 /* CustomTextView.swift */,
 				16F15F7022D697EE00E90C69 /* CustomTextField.swift */,
+				162B6D5122E0E96F007DFB7F /* PhoneNumberTextField.swift */,
 			);
 			path = "Style Guide";
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				16F15F5B22D64BF000E90C69 /* CoreLocationManager.swift in Sources */,
 				16F15F8B22DCDEAA00E90C69 /* PostListTableViewCell.swift in Sources */,
 				16F15F6122D6805E00E90C69 /* CustomTextView.swift in Sources */,
+				162B6D5222E0E96F007DFB7F /* PhoneNumberTextField.swift in Sources */,
 				16F15F9A22DD140E00E90C69 /* ProfileTableViewCell.swift in Sources */,
 				16F15F5D22D6513400E90C69 /* customSearchBar.swift in Sources */,
 				16F15F5F22D6573B00E90C69 /* EventsCreationViewController.swift in Sources */,

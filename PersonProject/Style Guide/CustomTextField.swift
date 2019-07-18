@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CustomTextField: UITextField {
+class SpecialTextField: UITextField {
     
     override func awakeFromNib() {
         super.awakeFromNib()

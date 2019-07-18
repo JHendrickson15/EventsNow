@@ -28,6 +28,8 @@ class PostDetailViewController: UIViewController, MFMessageComposeViewController
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        shouldAutoRotate()
+        supportedInterfaceOrientations()
         hiddenPhoneNumberLabel.isHidden = true
         updateViews()
         // Do any additional setup after loading the view.
@@ -50,6 +52,9 @@ class PostDetailViewController: UIViewController, MFMessageComposeViewController
         sendSMSText(phone: phone)
         print("message sent")
         print("\(entryTextField.text)")
+        DispatchQueue.main.async {
+            self.navigationController?.popViewController(animated: true)
+        }
         
     }
     func sendSMSText(phone: String){
@@ -69,6 +74,13 @@ class PostDetailViewController: UIViewController, MFMessageComposeViewController
     
     override func viewWillDisappear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = false
+    }
+    func shouldAutoRotate() -> Bool {
+        return false
+    }
+    
+    func supportedInterfaceOrientations() -> UIInterfaceOrientationMask{
+        return .portrait
     }
 }
     /*

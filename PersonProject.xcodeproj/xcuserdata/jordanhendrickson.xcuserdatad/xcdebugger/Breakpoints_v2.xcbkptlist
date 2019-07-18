@@ -25,140 +25,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PersonProject/View Controllers/PostListViewController.swift"
-            timestampString = "585086895.447484"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
-            landmarkName = "signupButtonTapped(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PersonProject.PostListViewController.signupButtonTapped(Any) -&gt; ()"
-                  moduleName = "PersonProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jordanhendrickson/Documents/PersonalProject.Meetups-master/PersonProject/View%20Controllers/PostListViewController.swift"
-                  timestampString = "585079598.258575"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "114"
-                  endingLineNumber = "114"
-                  offsetFromSymbolStart = "1868">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Bool) -&gt; () in PersonProject.PostListViewController.signupButtonTapped(Any) -&gt; ()"
-                  moduleName = "PersonProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jordanhendrickson/Documents/PersonalProject.Meetups-master/PersonProject/View%20Controllers/PostListViewController.swift"
-                  timestampString = "585079598.260438"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
-                  offsetFromSymbolStart = "168">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PersonProject/View Controllers/PostListViewController.swift"
-            timestampString = "585086895.451699"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "signupButtonTapped(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PersonProject/View Controllers/PostListViewController.swift"
-            timestampString = "585086895.452298"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
-            landmarkName = "signupButtonTapped(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PersonProject/View Controllers/PostListViewController.swift"
-            timestampString = "585086895.453418"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "signupButtonTapped(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PersonProject/View Controllers/PostListViewController.swift"
-            timestampString = "585086895.457975"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
-            landmarkName = "signupButtonTapped(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PersonProject/View Controllers/PostListViewController.swift"
-            timestampString = "585086895.4592119"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "signupButtonTapped(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "PersonProject/View Controllers/PostDetailViewController.swift"
-            timestampString = "585076976.761106"
+            timestampString = "585166520.1044379"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "updateViews()"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,23 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/View Controllers/PostDetailViewController.swift"
-            timestampString = "585076976.761153"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "sendMessageButtonTapped(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PersonProject/View Controllers/PostDetailViewController.swift"
-            timestampString = "585076976.761197"
+            timestampString = "585166520.104902"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -202,11 +58,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/View Controllers/PostDetailViewController.swift"
-            timestampString = "585076976.7612391"
+            timestampString = "585166520.105082"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "sendMessageButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PersonProject/View Controllers/PostDetailViewController.swift"
+            timestampString = "585166520.105208"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "sendSMSText(phone:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -218,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/View Controllers/PostDetailViewController.swift"
-            timestampString = "585076976.761287"
+            timestampString = "585166520.105294"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "updateViews()"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/Model Controllers/PostController.swift"
-            timestampString = "585086895.460683"
+            timestampString = "585164908.56866"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
@@ -250,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/Model Controllers/PostController.swift"
-            timestampString = "585086895.461834"
+            timestampString = "585164908.568874"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -266,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/Model Controllers/PostController.swift"
-            timestampString = "585086895.462435"
+            timestampString = "585164908.568922"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
@@ -282,7 +154,7 @@
                   moduleName = "PersonProject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jordanhendrickson/Documents/PersonalProject.Meetups-master/PersonProject/Model%20Controllers/PostController.swift"
-                  timestampString = "585079598.307579"
+                  timestampString = "585166348.475732"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "46"
@@ -297,7 +169,7 @@
                   moduleName = "PersonProject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jordanhendrickson/Documents/PersonalProject.Meetups-master/PersonProject/Model%20Controllers/PostController.swift"
-                  timestampString = "585079598.30909"
+                  timestampString = "585166348.479223"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "47"
@@ -314,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/Model Controllers/PostController.swift"
-            timestampString = "585086895.463508"
+            timestampString = "585164908.568965"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
@@ -330,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/View Controllers/ProfileViewController.swift"
-            timestampString = "585086895.464012"
+            timestampString = "585166520.10567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "tableView(_:commit:forRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -346,12 +218,12 @@
                   moduleName = "PersonProject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jordanhendrickson/Documents/PersonalProject.Meetups-master/PersonProject/View%20Controllers/ProfileViewController.swift"
-                  timestampString = "585079598.433553"
+                  timestampString = "585166351.309343"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "120"
-                  endingLineNumber = "120"
-                  offsetFromSymbolStart = "460">
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "531">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -361,12 +233,12 @@
                   moduleName = "PersonProject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jordanhendrickson/Documents/PersonalProject.Meetups-master/PersonProject/View%20Controllers/ProfileViewController.swift"
-                  timestampString = "585079598.437138"
+                  timestampString = "585166351.31077"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "180">
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "192">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -378,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/View Controllers/ProfileViewController.swift"
-            timestampString = "585086895.465081"
+            timestampString = "585166520.105963"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
             landmarkName = "tableView(_:commit:forRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -394,11 +266,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/View Controllers/ProfileViewController.swift"
-            timestampString = "585086895.465396"
+            timestampString = "585166520.10607"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "tableView(_:commit:forRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -410,12 +282,12 @@
                   moduleName = "PersonProject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jordanhendrickson/Documents/PersonalProject.Meetups-master/PersonProject/View%20Controllers/ProfileViewController.swift"
-                  timestampString = "585079598.449183"
+                  timestampString = "585166351.31962"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "122"
-                  endingLineNumber = "122"
-                  offsetFromSymbolStart = "224">
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "263">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -425,12 +297,12 @@
                   moduleName = "PersonProject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jordanhendrickson/Documents/PersonalProject.Meetups-master/PersonProject/View%20Controllers/ProfileViewController.swift"
-                  timestampString = "585079598.450587"
+                  timestampString = "585166351.320991"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "96">
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "114">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -442,11 +314,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/View Controllers/ProfileViewController.swift"
-            timestampString = "585086895.465749"
+            timestampString = "585166520.106137"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "tableView(_:commit:forRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -458,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/View Controllers/ProfileViewController.swift"
-            timestampString = "585086895.466683"
+            timestampString = "585166520.106234"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "tableView(_:commit:forRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -474,7 +346,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PersonProject/Model Controllers/PostController.swift"
-            timestampString = "585086895.467115"
+            timestampString = "585164908.570188"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"

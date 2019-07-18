@@ -32,10 +32,21 @@ class EventsListViewController: UIViewController {
             }
         }
     }
-    // MARK: - Lifecycle
+    func shouldAutoRotate() -> Bool {
+        return false
+    }
     
+    func supportedInterfaceOrientations() -> UIInterfaceOrientationMask{
+        return .portrait
+    }
+    
+    
+    
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        shouldAutoRotate()
+        supportedInterfaceOrientations()
         self.searchBar.delegate = self
         self.eventsTableView.delegate = self
         self.eventsTableView.dataSource = self
